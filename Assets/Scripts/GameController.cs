@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		//verifica se está na cena de nome "Principal"
+		//verifica se está na cena de nome "Fase1"
 		if (SceneManager.GetActiveScene ().name == "Fase1")
 		{
 			GameObject obj = GameObject.Find ("Caixa"); //procura pelo objeto de nome Caixa, que está somente na cena "Fase1"
